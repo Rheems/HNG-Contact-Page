@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card HNG Stage 0</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <!-- ROOT CONTAINER -->
+      <article class="profile-card" data-testid="test-profile-card">
+        <!-- HEADER SECTION -->
+        <header class="profile-header">
+          <figure class="avatar-container">
+            <!-- AVATAR -->
+            <img
+              src="https://i.postimg.cc/xdBSjKPm/young-cartoon-female-avatar-student-character-wearing-eyeglasses-file-no-background-ai-generated-png.webp"
+              alt="Profile picture of Avatar"
+              data-testid="test-user-avatar"
+              class="avatar"
+            />
+            <figcaption class="sr-only">User Avatar</figcaption>
+          </figure>
+
+          <div class="profile-info">
+            <!-- USER NAME -->
+            <h2 data-testid="test-user-name" class="user-name">
+              KARIMAH AHMAD YUSUF
+            </h2>
+
+            <!-- CURRENT TIME -->
+            <div
+              data-testid="test-user-time"
+              id="current-time"
+              class="time-display"
+            >
+              Loading time.....
+              <!-- JavaScript will populate this -->
+            </div>
+          </div>
+        </header>
+
+        <!-- BIO SECTION -->
+        <section class="bio-section">
+          <h3 class="section-title">About Me</h3>
+          <!-- USER BIO -->
+          <p data-testid="test-user-bio" class="user-bio">
+            Passionate frontend developer with 1+ years of experience creating
+            accessible and responsive web applications. Love open source and
+            contributing to the developer community.
+          </p>
+        </section>
+
+        <!-- HOBBIES SECTION -->
+        <section class="hobbies-section">
+          <h3 class="section-title">Hobbies</h3>
+          <!-- HOBBIES LIST -->
+          <ul data-testid="test-user-hobbies" class="hobbies-list">
+            <li>Hanging out with girlies</li>
+            <li>Reading Tech Blogs</li>
+            <li>Loves book review</li>
+            <li>Gardening</li>
+            <li>Gaming</li>
+          </ul>
+        </section>
+
+        <!-- DISLIKES SECTION -->
+        <section class="dislikes-section">
+          <h3 class="section-title">Dislikes</h3>
+          <!-- DISLIKES LIST -->
+          <ul data-testid="test-user-dislikes" class="dislikes-list">
+            <li>Traffic Jams</li>
+            <li>Poor Internet Connection</li>
+            <li>African Time</li>
+            <li>Waking Up Early</li>
+          </ul>
+        </section>
+
+        <!-- SOCIAL LINKS SECTION -->
+        <nav class="social-section" aria-label="Social media links">
+          <h3 class="section-title">Connect With Me</h3>
+          <!-- SOCIAL LINKS CONTAINER -->
+          <ul data-testid="test-user-social-links" class="social-links">
+            <li>
+              <!-- TWITTER LINK -->
+              <a
+                href="https://twitter.com/Karimah"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-twitter"
+                class="social-link"
+              >
+                Twitter
+              </a>
+            </li>
+            <li>
+              <!-- GITHUB LINK -->
+              <a
+                href="https://github.com/Rheems"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                class="social-link"
+              >
+                GitHub
+              </a>
+            </li>
+            <li>
+              <!-- LINKEDIN LINK -->
+              <a
+                href="https://www.linkedin.com/in/kareemah-ahmad-yusuf-cspo®-2b8b2b341"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                class="social-link"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <!-- INSTAGRAM LINK -->
+              <a
+                href="https://instagram.com/creamykareema"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-instagram"
+                class="social-link"
+              >
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
