@@ -110,13 +110,13 @@ hng-stage1/
 
 🚀 Live Demo
 
-[Add your live URL here after deployment]
+[https://github.com/Rheems/HNG-Contact-Page]
 
 📦 Installation & Setup
 
 1. Clone the repository
    bash
-   git clone [your-repo-link]
+   git clone [https://hng-contact-page.vercel.app/]
    cd hng-stage1
 
 🎯 Acceptance Criteria Met
@@ -217,7 +217,7 @@ Other Platforms
 
 🔗 Links
 
-· Live URL: [Add your deployed URL here]
+· Live URL: [https://hng-contact-page.vercel.app/]
 · GitHub Repository: [Add your repo link here]
 
 👨‍💻 Developer
